@@ -34,10 +34,10 @@ function App() {
       <Header/>   
         <div className="mainContainer">   
           <div className="row">
-            <div className="col-6">
+            <div className="col-md">
               <img className="imagen" src={magicHat} alt="sombrero magico"/> 
             </div>
-            <div className="col-6">
+            <div className="col-md">
               <Formulario 
                 sorteo={sorteo}
                 guardarSorteo={guardarSorteo}
