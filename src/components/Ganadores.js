@@ -15,7 +15,7 @@ const Ganadores = ({ganadores}) =>{
                 </div>
                 <div className="col-md-8">
                 <div className="card-body">
-                    <h5 className="card-title">La fortuna de FuerzaDON ha hablado</h5>
+                    <h5 className="card-title">FuerzaDON te ama</h5>
                     <p className="card-text">El ganador del DLC de Steve es: <b>{ganadores}</b></p>
                 </div>
                 </div>

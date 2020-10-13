@@ -23,7 +23,7 @@ function App() {
   let resultado;
 
   if(error){
-    resultado= <Error mensaje="No hay resultados"/>
+    resultado= <Error mensaje="No se cumple todas la condiciones"/>
   }else{
     resultado = <Ganadores ganadores={ganadores}/>
   }

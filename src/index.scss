@@ -35,7 +35,6 @@ body {
   textarea {
     
     overflow-y: scroll;
-    height: 100px;
     resize: none; /* Remove this if you want the user to resize the textarea */
  
   }
@@ -81,8 +80,6 @@ body {
   
   .error {
     padding: 1rem!important;
-    color:white;
-    margin-top: 3rem;
     text-align: center;
     text-emphasis: left;
   }

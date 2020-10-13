@@ -65,15 +65,12 @@ const Formulario = ({sorteo, guardarSorteo, guardarGanadores}) =>{
         {error ? <Error mensaje="Agregue mas participantes" /> : null}   
             
             <div className="form-group">
-                <label
-                    htmlFor="textareaList"
-                    className="formText">
-                        Ingresa aqui la lista de participantes. Como minimo de participantes deben ser de 2 y los duplicados seran omitidos
+                <label className="formText">
+                        Ingresa aqui la lista de participantes. El minimo es de 2 y los duplicados seran omitidos
                 </label>
 
                 <textarea 
-                   rows="6"
-                   id="lista"
+                   rows="8"
                    className="form-control"
                    name="lista"    
                    value={lista} 
