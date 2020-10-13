@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import prize from '../steve.jpg';
+import prize from '../steve-min.jpg';
 
 const Ganadores = ({ganadores}) =>{
 
