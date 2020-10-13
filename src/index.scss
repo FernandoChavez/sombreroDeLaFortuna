@@ -1,5 +1,6 @@
 $bgColor: #c46df5;
 $bgColorRestBrow: to right, #590a85, #c46df5;
+$mainShadow: 5px 10px 20px;
 
 $fontBadges: 'Raleway', sans-serif; 
 
@@ -25,7 +26,7 @@ body {
   h2 {
     font-family: $fontBadges;
     font-weight: 100;
-    color:#004e92;
+    color:white;
     margin-bottom:30px;
     font-size:3rem!important;
     text-align: center;
@@ -65,7 +66,7 @@ body {
       background: #9e4a61;
       padding: 30px;
       border-radius: 25px;
-      box-shadow: 5px 10px 20px;
+      box-shadow: $mainShadow;
   }
 
   .formText{
@@ -86,3 +87,6 @@ body {
     text-emphasis: left;
   }
   
+  .carta-ganadora {
+    box-shadow: $mainShadow;
+  }
