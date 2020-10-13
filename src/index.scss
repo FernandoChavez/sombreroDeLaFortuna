@@ -1,0 +1,88 @@
+$bgColor: #c46df5;
+$bgColorRestBrow: to right, #590a85, #c46df5;
+
+$fontBadges: 'Raleway', sans-serif; 
+
+body {
+    background: $bgColor;  /* fallback for old browsers */
+    background: -webkit-linear-gradient($bgColorRestBrow);  
+    background: linear-gradient($bgColorRestBrow); 
+    font-family: $fontBadges;
+  }
+  header {
+    //margin: 30px 0;
+    color: white;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-family: $fontBadges;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    font-size: 3rem!important;
+  }
+  h2 {
+    font-family: $fontBadges;
+    font-weight: 100;
+    color:#004e92;
+    margin-bottom:30px;
+    font-size:3rem!important;
+    text-align: center;
+  }
+  
+  textarea {
+    
+    overflow-y: scroll;
+    height: 100px;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+ 
+  }
+  
+  .imagen{
+    max-width: 80%;
+    display:block;
+    margin:auto;
+  }
+  
+  .mainContainer{
+    padding: 30px;
+    border-radius: 20px;
+    
+  }
+
+  .title{
+    font-family: $fontBadges;
+    color: #FFF;
+    text-align: center;
+    
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+  }
+
+  .formulario{
+      background: #9e4a61;
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 5px 10px 20px;
+  }
+
+  .formText{
+    color: white;
+  }
+
+  .buttonWinner{
+      
+      padding: 10px;
+  }
+
+  
+  .error {
+    padding: 1rem!important;
+    color:white;
+    margin-top: 3rem;
+    text-align: center;
+    text-emphasis: left;
+  }
+  
